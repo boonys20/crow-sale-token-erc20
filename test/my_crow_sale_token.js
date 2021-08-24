@@ -1,13 +1,13 @@
-const MyGoldToken = artifacts.require("MyGoldToken");
+const MyCrowdSaleDeployer = artifacts.require("MyCrowdSaleDeployer");
 
 /*
  * uncomment accounts to access the test accounts made available by the
  * Ethereum client
  * See docs: https://www.trufflesuite.com/docs/truffle/testing/writing-tests-in-javascript
  */
-contract("MyGoldToken", function ( accounts ) {
+contract("MyCrowdSaleDeployer", function ( accounts ) {
   it("should assert true", async function () {
-    await MyGoldToken.deployed();
+    await MyCrowdSaleDeployer.deployed();
     return assert.isTrue(true);
   });
 });
