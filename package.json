@@ -1,0 +1,24 @@
+{
+  "name": "openzeppelin",
+  "version": "1.0.0",
+  "description": "Test Crow Sale Smart Contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "Boonyuen Sumphaongoen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boonys20/crow-sale-token-erc20.git"
+  },
+  "bugs": {
+    "url": "https://github.com/boonys20/crow-sale-token-erc20/issues"
+  },
+  "homepage": "https://github.com/boonys20/crow-sale-token-erc20#readme"
+}
